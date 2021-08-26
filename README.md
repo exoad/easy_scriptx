@@ -6,3 +6,7 @@ I will try to comment and explain what each piece of command does in order to ke
 
 Note: I mostly dedicated this repository and these scripts to the users of ChromeOS whom can have trouble installing certain applications. However, most of these scripts
 should work well in compatibility with other Debian-based flavors.
+
+# Additional Notes
+
+This repository's scripts primarily uses the `apt` packager to install and handle tasks, but I will gladly incorporate the installation or usage of other packagers if necessary or if perferred by the user.
