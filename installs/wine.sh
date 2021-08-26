@@ -46,6 +46,20 @@ if [ "$choice" == "1" ]
     
     echo -e "\e[92m> Installed Wine Stable" ; echo ;
     
+    echo -e "\e[34m> Would you like to launch it now? (y/n)" ; echo ;
+    
+    read c
+    
+    if [ "$c" == "y" ] || [ "$c" == "Y" ]
+      then
+        virtualbox
+        echo -e "\e[31m> Launched VirtualBox" ; echo ;
+      exit
+    else
+      then
+      exit
+    fi
+    
   exit
 elif [ "$choice" == "2" ] 
   then
@@ -54,5 +68,20 @@ elif [ "$choice" == "2" ]
     wine --version 
     
     echo -e "\e[92m> Installed Wine Staging" ; echo ;
+    
+        echo -e "\e[34m> Would you like to launch it now? (y/n)" ; echo ;
+    
+    read c
+    
+    if [ "$c" == "y" ] || [ "$c" == "Y" ]
+      then
+        virtualbox
+        echo -e "\e[31m> Launched VirtualBox" ; echo ;
+      exit
+    else
+      then
+      exit
+    fi
   exit
 fi
+
