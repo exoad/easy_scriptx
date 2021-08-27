@@ -1,6 +1,6 @@
 # Common Bash Scripts
 
-These are bash scripts that help you easily install certain applications or functionalities to your Linux Environment!
+These are some bash scripts to help to add a bit of "user-friendliness" when using certain functions within a Linux environment. 
 
 I will try to comment and explain what each piece of command does in order to keep everything public and open.
 
