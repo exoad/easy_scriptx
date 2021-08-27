@@ -26,3 +26,9 @@ This repository's scripts primarily uses the `apt` packager to install and handl
 Please note, if you are using an unsupported architecture, you should take extreme caution when using the commands within the code by simply copying and pasting them into your terminal.
 
 [FOR MOST SCRIPTS] The scripts are intended to exit when an architecture of `ARM` is detected. This for your system's integrity, and the authors of the script(s) will take no responsibility if the program installed or installing crashes your system due to an unsupported architecture.
+
+# Planned
+
+**Here are things that I plan on to add to this repo and the scripts within:**
+
+1. A wrapper or manager for users to easily install it and then can easily use this program to install applications without having to run the scripts manually.
