@@ -49,6 +49,6 @@ if [[ "$struct" != arm* ]]
   exit
 else
   then
-    echo -e "\e[34m> Arch Structure not supported for your system's safety..." ; echo ;
+    echo -e "\e[34m> Device Architecture not supported for your system's safety..." ; echo ;
   exit
 fi
