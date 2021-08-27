@@ -45,7 +45,6 @@ if [[ "$struct" != arm* ]]
         install_mc
         
     else
-      then
         echo -e "\e[92m> Installing Java" ; echo ;
         
         sudo apt update
@@ -57,7 +56,6 @@ if [[ "$struct" != arm* ]]
      fi
   exit
 else
-  then
     echo -e "\e[34m> Device Architecture not supported. For your system's safety, this script has been halted" ; echo ;
   exit
 fi
