@@ -18,15 +18,13 @@
 
 echo -e "\e[92m> Installing Java Now..." ; echo ;
 
-sudo apt-get update -y
-
-sudo apt upgrade -y
+sudo apt update -y
 
 echo -e "\e[31m> Up to date" ; echo ;
 
-sudo apt install default-jdk -y
+sudo apt update -y
 
-sudo apt install default-jre -y
+sudo apt install default-jdk -y
 
 echo -e "\e[34m> Installed Java!" ; echo ;
 
