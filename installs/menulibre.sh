@@ -27,6 +27,5 @@ if [ "$choice" == "y" ] || [ "$choice" == "yes" ] || [ "$choice" == "Y" ]
    menulibre
    echo -e "\e[34m> Launched MenuLibre" ; echo ;
 else
-  then
     exit
 fi
