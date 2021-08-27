@@ -32,3 +32,4 @@ Please note, if you are using an unsupported architecture, you should take extre
 **Here are things that I plan on to add to this repo and the scripts within:**
 
 1. A wrapper or manager for users to easily install it and then can easily use this program to install applications without having to run the scripts manually.
+2. Make all programs that are installed be instantly launched
