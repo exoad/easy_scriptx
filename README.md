@@ -1,4 +1,6 @@
-# Common Bash Scripts
+# Common Bash Scripts 
+![](https://img.shields.io/github/repo-size/Yttrium-Terminus/common_scripts?style=flat-square) ![](https://img.shields.io/github/issues-raw/Yttrium-Terminus/common_scripts?style=flat-square) ![](https://img.shields.io/reddit/subreddit-subscribers/chromeos?style=flat-square)
+___
 
 These are some bash scripts to help to add a bit of "user-friendliness" when using certain functions within a Linux environment. 
 
