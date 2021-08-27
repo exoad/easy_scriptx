@@ -30,7 +30,6 @@ if [[ "$struct" != arm* ]]
     echo -e "\e[34m> Installed & Launched IntelliJ Community Edition" ; echo ;
   exit
 else
-  then
     echo -e "\e[34m> Device Architecture not supported. For your system's safety, this script has been halted" ; echo ;
   exit
 fi
