@@ -18,11 +18,17 @@ install_mc () {
   
   sudo apt update
   
-  wget https://launcher.mojang.com/download/Minecraft.deb
+  wget https://launcher.mojang.com/download/Minecraft.tar.gz
   
-  sudo dpkg -i Minecraft.deb
+  tar -xf Minecraft.tar.gz
   
-  sudo apt -f install
+  cd minecraft-launcher
+  
+  ./minecraft-launcher
+  
+  sudo apt-get update -y
+  
+  sudo apt-get install -y libsecrets-1-0
   
   echo -e "\e[34m> Installed Minecraft" ; echo ;
 }
