@@ -79,7 +79,7 @@ elif [ "$choice" == "2" ]
         echo -e "\e[31m> Launched VirtualBox" ; echo ;
       exit
     else
-      then
+
       exit
     fi
   exit
