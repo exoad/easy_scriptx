@@ -6,7 +6,7 @@
 # If you do not have Java installed, this script will automatically install Java JDK 8 for you
 #
 # This script will not be updated constantly with the most current direct download link, so feel free to link your own direct download link 
-# on line 26
+# on line 26 and also edit the file name accordingly on line 28
 #
 # Run Script:
 #
@@ -23,11 +23,12 @@ if [[ "$struct" != arm* ]]
     echo -e "\e[92m> Fetching files from IntelliJ..." ; echo ;
     
     #you may replace this direct download link with the latest version
-    wget https://download-cf.jetbrains.com/idea/ideaIC-2021.2.1.tar.gz
+    wget https://download-cf.jetbrains.com/idea/ideaIC-2021.2.tar.gz
     
-    sudo tar -xvf ideaIC-*.tar.gz -C /opt/
+    #edit this file name if you changed the wget
+    tar -xf ideaIC-2021.2.tar.gz
 
-    cd ideaIC-*/bin
+    cd idea-IC-212.4746.92/bin && ./idea.sh
     
     ./idea.sh
     
