@@ -18,13 +18,13 @@ install_mc () {
   
   sudo apt update
   
-  wget https://launcher.mojang.com/download/Minecraft.tar.gz
+  wget https://launcher.mojang.com/download/Minecraft.deb
+
+  sudo apt update -y
   
-  tar -xf Minecraft.tar.gz
+  sudo dpkg -i Minecraft.deb
   
-  cd minecraft-launcher
-  
-  ./minecraft-launcher
+  sudo apt -f install 
   
   sudo apt-get update -y
   
@@ -38,8 +38,7 @@ echo -e "\e[94m> Checking if system is compatible..." ; echo ;
 if [[ "$struct" != arm* ]]
   then
     echo -e "\e[94m> Checking if Java is installed..." ; echo ;
-    JAVA_CHECK=$(java -version 2>&1 >/dev/null | egrep "\S+\s+version" | awk '{print $3}' | tr -d '"')
-    if [ JAVA_CHECK ]
+    if [ java -version 2>&1 >/dev/null | egrep "\S+\s+version" ]
       then
         install_mc
         
