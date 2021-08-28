@@ -5,6 +5,9 @@
 # This script will download the free Community Edition of IntelliJ Java IDE
 # If you do not have Java installed, this script will automatically install Java JDK 8 for you
 #
+# This script will not be updated constantly with the most current direct download link, so feel free to link your own direct download link 
+# on line 26
+#
 # Run Script:
 #
 # bash intellij.sh
@@ -28,11 +31,11 @@ if [[ "$struct" != arm* ]]
 
     sudo chmod 777 /idea/
 
-    mv idea-*/* /idea/
+    sudo mv idea-*/* /idea/
     
     cd /idea/bin
     
-    sh idea.sh
+    sudo sh idea.sh
     
     echo -e "\e[34m> Installed & Launched IntelliJ Community Edition" ; echo ;
   exit
