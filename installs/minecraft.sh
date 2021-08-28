@@ -49,7 +49,7 @@ if [[ "$struct" != arm* ]]
         
         sudo apt update
       
-        sudo apt-get install default-jdk
+        sudo apt install default-jdk
         
         install_mc
       exit
