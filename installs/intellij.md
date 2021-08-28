@@ -13,3 +13,4 @@ If you have any issues or problems when using the script, please put them here: 
 5. Then we run IntelliJ with `./idea.sh`
 6. [OPTIONAL] You can install Menulibre and add a launcher for it for easy accessibility
 
+For the script checkout the `intellij.sh` file within this same directory
