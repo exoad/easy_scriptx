@@ -19,9 +19,15 @@ should work well in compatibility with other Debian-based flavors.
 
 *Note:* It is best to not run scripts with the command: `sh <file>.sh` as this can cause conflicts and weird errors
 
+*Secondary Notes:* Sometimes when running with `./<file>.sh` it can result in a `Permission Denied` error being thrown. This you can do one of the following:
+
+1. [RECOMMENDED] Use `bash <file>.sh`
+2. Give the file permission using: `chmod +x <file>.sh` and then running it with `./<file>.sh`
+
 # Additional Notes
 
-This repository's scripts primarily uses the `apt` packager to install and handle tasks, but I will gladly incorporate the installation or usage of other packagers if necessary or if perferred by the user.
+1. This repository's scripts primarily uses the `apt` packager to install and handle tasks, but I will gladly incorporate the installation or usage of other packagers if necessary or if perferred by the user.
+2. It is recommended to not clone this repository or download this repository as a whole and instead it is recommended for the user to download their needed file manually. The main reason is because most scripts download packages straight to the current directory, and can cause conflicts.
 
 # Risks
 
