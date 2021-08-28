@@ -28,7 +28,7 @@ install_mc () {
   
   sudo apt-get update -y
   
-  sudo apt-get install -y libsecrets-1-0
+  sudo apt-get install -y libsecret-1-0
   
   echo -e "\e[34m> Installed Minecraft" ; echo ;
 }
