@@ -25,17 +25,11 @@ if [[ "$struct" != arm* ]]
     #you may replace this direct download link with the latest version
     wget https://download-cf.jetbrains.com/idea/ideaIC-2021.2.1.tar.gz
     
-    sudo tar -zxvf ideaIC-*.tar.gz
+    sudo tar -xvf ideaIC-*.tar.gz -C /opt/
 
-    sudo mkdir /idea/
-
-    sudo chmod 777 /idea/
-
-    sudo mv idea-*/* /idea/
+    cd ideaIC-*/bin
     
-    cd /idea/bin
-    
-    sudo sh idea.sh
+    ./idea.sh
     
     echo -e "\e[34m> Installed & Launched IntelliJ Community Edition" ; echo ;
   exit
