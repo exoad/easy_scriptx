@@ -35,21 +35,20 @@ install_mc () {
 
 struct=$(uname -i)
 echo -e "\e[94m> Checking if system is compatible..." ; echo ;
-
 if [[ "$struct" != arm* ]]
   then
     echo -e "\e[94m> Checking if Java is installed..." ; echo ;
-    
-    if [ java -version 2>&1 >/dev/null | grep "java version\|openjdk version" ]
+    JAVA_CHECK=$(java -version 2>&1 >/dev/null | egrep "\S+\s+version" | awk '{print $3}' | tr -d '"')
+    if [ JAVA_CHECK ]
       then
         install_mc
         
     else
         echo -e "\e[92m> Installing Java" ; echo ;
         
-        sudo apt update
+        sudo apt update -y
       
-        sudo apt install default-jdk
+        sudo apt install default-jdk -y
         
         install_mc
       exit
