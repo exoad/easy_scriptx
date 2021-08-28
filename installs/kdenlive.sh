@@ -45,13 +45,11 @@ if [[ "$struct" != arm* ]]
         
       exit
     else
-      then
         install_kdel
       exit
     fi
   exit
 else
-  then
     echo -e "\e[34m> Device Architecture not supported. For your system's safety, this script has been halted" ; echo ;
   exit
 fi
