@@ -17,6 +17,8 @@ if [ "$choice" == "1" ]
   
   sudo apt remove default-jdk default-jre
   
+  sudo apt autoremove
+
   echo -e "\e[34m> Done." ; echo ;
   exit
 elif [ "$choice" == "2" ] 
