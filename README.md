@@ -17,6 +17,8 @@ should work well in compatibility with other Debian-based flavors.
 
 **Step 3:** Use the command `bash <file>.sh` or `./<file.sh>` within your terminal then follow instructions of that script
 
+*Note:* It is best to not run scripts with the command: `sh <file>.sh` as this can cause conflicts and weird errors
+
 # Additional Notes
 
 This repository's scripts primarily uses the `apt` packager to install and handle tasks, but I will gladly incorporate the installation or usage of other packagers if necessary or if perferred by the user.
