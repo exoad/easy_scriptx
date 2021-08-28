@@ -19,13 +19,20 @@ if [[ "$struct" != arm* ]]
   then
     echo -e "\e[92m> Fetching files from IntelliJ..." ; echo ;
     
-    wget https://download.jetbrains.com/idea/ideaIC-2021.2.1.tar.gz -C /opt/
+    #you may replace this direct download link with the latest version
+    wget https://download-cf.jetbrains.com/idea/ideaIC-2021.2.1.tar.gz
     
-    sudo tar -xf ideaIC-2021.2.1.tar.gz
+    sudo tar -zxvf ideaIC-*.tar.gz
+
+    sudo mkdir /idea/
+
+    sudo chmod 777 /idea/
+
+    mv idea-*/* /idea/
     
-    cd ideaIC-2021.2.1.tar.gz/bin
+    cd /idea/bin
     
-    ./idea.sh
+    sh idea.sh
     
     echo -e "\e[34m> Installed & Launched IntelliJ Community Edition" ; echo ;
   exit
