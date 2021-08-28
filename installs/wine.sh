@@ -56,7 +56,6 @@ if [ "$choice" == "1" ]
         echo -e "\e[31m> Launched Wine" ; echo ;
       exit
     else
-      then
       exit
     fi
     
@@ -79,7 +78,6 @@ elif [ "$choice" == "2" ]
         echo -e "\e[31m> Launched Wine" ; echo ;
       exit
     else
-
       exit
     fi
   exit

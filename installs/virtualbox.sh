@@ -43,7 +43,6 @@ if [[ "$struct" != arm* ]]
         echo -e "\e[92m> Launched VirtualBox" ; echo ;
       exit
     else
-      then
       exit
     fi 
   exit
