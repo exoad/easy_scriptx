@@ -3,6 +3,8 @@
 # NOTICE: THIS IS A VERY BUGGY AND NON-USERFRIENDLY SCRIPT IF YOU ARE NOT USING THE VANILLA SCRIPT. THIS MEANS THIS SCRIPT CAN BECOME VERY 
 # DIFFICULT TO OPERATE IF YOU MODIFY THE WGET AND FOLLOWING. IF YOU HAVE ISSUES, PLEASE LEAVE THEM HERE: https://github.com/Yttrium-Terminus/common_scripts/issues
 #
+# For extra info on manual installation check out the "intellij.md" that should be within this repo's same directory!
+#
 # IntelliJ Java IDE Installation
 #
 # This script will download the free Community Edition of IntelliJ Java IDE
