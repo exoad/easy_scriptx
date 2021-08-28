@@ -21,7 +21,8 @@ should work well in compatibility with other Debian-based flavors.
 
 # Additional Notes
 
-This repository's scripts primarily uses the `apt` packager to install and handle tasks, but I will gladly incorporate the installation or usage of other packagers if necessary or if perferred by the user.
+1. This repository's scripts primarily uses the `apt` packager to install and handle tasks, but I will gladly incorporate the installation or usage of other packagers if necessary or if perferred by the user.
+2. It is recommended to not clone this repository or download this repository as a whole and instead it is recommended for the user to download their needed file manually. The main reason is because most scripts download packages straight to the current directory, and can cause conflicts.
 
 # Risks
 
