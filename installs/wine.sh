@@ -52,8 +52,8 @@ if [ "$choice" == "1" ]
     
     if [ "$c" == "y" ] || [ "$c" == "Y" ]
       then
-        virtualbox
-        echo -e "\e[31m> Launched VirtualBox" ; echo ;
+        wine --help
+        echo -e "\e[31m> Launched Wine" ; echo ;
       exit
     else
       then
@@ -65,7 +65,7 @@ elif [ "$choice" == "2" ]
   then
     sudo apt install winehq-staging
     
-    wine --version 
+    wine --help
     
     echo -e "\e[92m> Installed Wine Staging" ; echo ;
     
@@ -75,8 +75,8 @@ elif [ "$choice" == "2" ]
     
     if [ "$c" == "y" ] || [ "$c" == "Y" ]
       then
-        virtualbox
-        echo -e "\e[31m> Launched VirtualBox" ; echo ;
+        wine --help
+        echo -e "\e[31m> Launched Wine" ; echo ;
       exit
     else
 
