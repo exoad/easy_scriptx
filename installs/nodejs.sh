@@ -1,6 +1,6 @@
 # NodeJS Installation
 #
-# Install NodeJS and NPM package manager on your system.
+# Install NodeJS and NPM package manager on your system. NPM comes along with the original packaging of NodeJs
 # You may follow these commands from the NodeJS docs to stay up to date: https://github.com/nodesource/distributions/blob/master/README.md
 #
 # Currently listed versions in this runnable: 16x, 14x, 12x
