@@ -25,7 +25,7 @@ echo -e "\e[31m> Up to date" ; echo ;
 sudo apt update -y
 
 sudo apt install default-jdk -y
-
+sudo apt install default-jre -y
 echo -e "\e[34m> Installed Java!" ; echo ;
 
 java --version
